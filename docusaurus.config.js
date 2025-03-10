@@ -91,12 +91,23 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {type: 'search', position: 'right'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
         ],
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'FISJV0R2N0',
+
+        // Public API key: it is safe to commit it
+        apiKey: '2034178e532fa5713692c8ae3cefd997',
+
+        indexName: 'steve0jooio',
+
       },
       footer: {
         style: 'dark',
